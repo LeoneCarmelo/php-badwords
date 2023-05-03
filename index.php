@@ -11,13 +11,14 @@
     <div class="container d-flex justify-content-center py-5">
         <div class="row">
             <div class="col">
-                <form action="script.php" method="get">
-                    <div class="field py-2 my-2 d-flex justify-content-center">
-                        <label for="paragraph" class="mx-2">Type a paragraph</label>
+                <h1 class="fw-bold text-center">Censor</h1>
+                <form action="script.php" method="get" class="border p-4">
+                    <div class="field py-2 my-2 d-flex justify-content-center flex-column">
+                        <label for="paragraph" class="my-2 text-center">Type a paragraph</label>
                         <input type="text" name="paragraph" id="paragraph">
                     </div>
-                    <div class="field py-2 my-2 d-flex justify-content-center">
-                        <label for="badwords" class="mx-2">Type a badwords</label>
+                    <div class="field py-2 my-2 d-flex justify-content-center flex-column">
+                        <label for="badwords" class="my-2 text-center">Type something you want to censor from the paragraph above</label>
                         <input type="text" name="badwords" id="badwords">
                     </div>
                     <div class="actions d-flex justify-content-center mt-3">
